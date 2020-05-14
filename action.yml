@@ -1,0 +1,23 @@
+name: "OpenType Sanitizer GitHub Action"
+description: "A GitHub Action for opentype-sanitizer testing of font artifacts"
+inputs:
+  path: # id
+    description: "Path to source file or directory (default='.')"
+    required: false
+    default: "." # default path is the root of the source repository
+  update-pip: # id
+    description: "Boolean for pip upgrade (default='false')"
+    required: false
+    default: "false" # options "true", "false"
+  version: #id
+    description: "opentype-sanitizer version"
+    required: false
+    default: "latest" # options: ["latest", "master", "[VERSION NUMBER]"]
+
+runs:
+  using: "node12"
+  main: "dist/index.js"
+
+branding:
+  icon: "terminal"
+  color: "blue"
