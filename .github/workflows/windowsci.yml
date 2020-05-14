@@ -25,14 +25,14 @@ jobs:
       - name: Run ${{ matrix.python-version }} platform tests (default)
         uses: f-actions/opentype-sanitizer@master
         with:
-          path: "tests\NotoSans-Regular.ttf"
+          path: "tests/NotoSans-Regular.ttf"
       - name: Run ${{ matrix.python-version }} platform tests (with args)
         uses: f-actions/opentype-sanitizer@master
         with:
           update-pip: "true"
           version: "8.0.0"
-          path: "tests\NotoSans-Regular.ttf"
+          path: "tests/NotoSans-Regular.ttf"
       - name: Run ${{ matrix.python-version }} platform tests (font wildcard)
         uses: f-actions/opentype-sanitizer@master
         with:
-          path: "tests\*.ttf"
+          path: "tests/*.ttf"
