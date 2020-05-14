@@ -3239,10 +3239,6 @@ async function run() {
     // install opentype-sanitizer
     if (otsVersion === "latest") {
       await exec.exec("python -m pip install --upgrade opentype-sanitizer");
-    } else if (otsVersion === "master") {
-      await exec.exec(
-        "python -m pip install --upgrade git+https://github.com/googlefonts/ots-python.git"
-      );
     } else {
       await exec.exec(
         `python -m pip install --upgrade opentype-sanitizer==${otsVersion}`
