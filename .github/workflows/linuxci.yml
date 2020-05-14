@@ -32,3 +32,7 @@ jobs:
           update-pip: "true"
           version: "8.0.0"
           path: "tests/NotoSans-Regular.ttf"
+      - name: Run ${{ matrix.python-version }} platform tests (font wildcard)
+        uses: f-actions/opentype-sanitizer@master
+        with:
+          path: "tests/*.ttf"
