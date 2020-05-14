@@ -12,7 +12,7 @@ inputs:
   version: #id
     description: "opentype-sanitizer version"
     required: false
-    default: "latest" # options: ["latest", "master", "[VERSION NUMBER]"]
+    default: "latest" # options: ["latest", "[VERSION NUMBER]"]
 
 runs:
   using: "node12"
