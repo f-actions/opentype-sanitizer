@@ -3252,7 +3252,7 @@ async function run() {
       console.log("");
       console.log(`[opentype-sanitizer] Checking ${file}...`);
       await exec.exec(
-        `python -c "import ots,sys;sys.exit(ots.sanitize('${file}').returncode)"`
+        `python -c import ots,sys;sys.exit(ots.sanitize("${file}").returncode)`
       );
     }
   } catch (error) {
