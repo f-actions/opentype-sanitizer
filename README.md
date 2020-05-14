@@ -3,7 +3,6 @@
 ![Version](https://img.shields.io/github/v/release/f-actions/opentype-sanitizer?sort=semver)
 [![Linux CI](https://github.com/f-actions/opentype-sanitizer/workflows/Linux%20CI/badge.svg)](https://github.com/f-actions/opentype-sanitizer/actions?query=workflow%3A%22Linux+CI%22)
 [![macOS CI](https://github.com/f-actions/opentype-sanitizer/workflows/macOS%20CI/badge.svg)](https://github.com/f-actions/opentype-sanitizer/actions?query=workflow%3A%22macOS+CI%22)
-[![Windows CI](https://github.com/f-actions/opentype-sanitizer/workflows/Windows%20CI/badge.svg)](https://github.com/f-actions/opentype-sanitizer/actions?query=workflow%3A%22Windows+CI%22)
 [![Lint](https://github.com/f-actions/opentype-sanitizer/workflows/Lint/badge.svg)](https://github.com/f-actions/opentype-sanitizer/actions?query=workflow%3ALint)
 
 This GitHub Action installs the [Python wrapper for opentype-santizer](https://github.com/googlefonts/ots-python) and executes tests on font artifacts. It is confirmed to function with Ubuntu and macOS GitHub Action runners and cPython versions 3.6+.
