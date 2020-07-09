@@ -17,7 +17,7 @@ name: OpenType Sanitizer tests
 on: [push, pull_request]
 
 jobs:
-  flake8-lint:
+  opentype-sanitizer:
     runs-on: ubuntu-latest
     name: OpenType Sanitizer tests
     steps:
@@ -41,7 +41,7 @@ name: OpenType Sanitizer tests
 on: [push, pull_request]
 
 jobs:
-  flake8-lint:
+  opentype-sanitizer:
     runs-on: ubuntu-latest
     name: OpenType Sanitizer tests
     steps:
