@@ -1,6 +1,6 @@
 {
   "name": "opentype-sanitizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A GitHub Action for opentype-sanitizer testing of font artifacts",
   "main": "src/index.js",
   "scripts": {
