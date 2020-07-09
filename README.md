@@ -33,7 +33,7 @@ jobs:
           path: path/to/*.ttf
 ```
 
-### With non-default settings
+### With custom settings
 
 ```yaml
 name: OpenType Sanitizer tests
