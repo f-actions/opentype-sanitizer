@@ -52,7 +52,7 @@ jobs:
         with:
           python-version: "3.8"
       - name: OpenType Sanitizer tests
-        uses: py-actions/flake8@v1
+        uses: f-actions/opentype-sanitizer@v1
         with:
           update-pip: "true"
           version: "8.0.0"
