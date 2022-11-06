@@ -22,13 +22,13 @@ jobs:
     name: OpenType Sanitizer tests
     steps:
       - name: Check out source repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Set up Python environment
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v4
         with:
-          python-version: "3.8"
+          python-version: "3.11"
       - name: OpenType Sanitizer tests
-        uses: f-actions/opentype-sanitizer@v1
+        uses: f-actions/opentype-sanitizer@v2
         with:
           path: path/to/*.ttf
 ```
@@ -46,13 +46,13 @@ jobs:
     name: OpenType Sanitizer tests
     steps:
       - name: Check out source repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Set up Python environment
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v4
         with:
           python-version: "3.8"
       - name: OpenType Sanitizer tests
-        uses: f-actions/opentype-sanitizer@v1
+        uses: f-actions/opentype-sanitizer@v2
         with:
           update-pip: "true"
           version: "8.0.0"
