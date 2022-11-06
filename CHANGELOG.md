@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.0.0
+
+- update f-actions/opentype-sanitizer Action to node 16 (addresses GitHub node 12 deprecation warnings for end users of this Action)
+
 ## 1.0.2
 
 - Action dependency updates (addresses node.js 12 deprecation warnings in this project's CI tests)
