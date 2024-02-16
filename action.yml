@@ -14,7 +14,7 @@ inputs:
     default: "latest" # options: ["latest", "[VERSION NUMBER]"]
 
 runs:
-  using: "node16"
+  using: "node20"
   main: "dist/index.js"
 
 branding:

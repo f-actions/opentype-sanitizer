@@ -19,7 +19,7 @@ async function run() {
       await exec.exec("python -m pip install --upgrade opentype-sanitizer");
     } else {
       await exec.exec(
-        `python -m pip install --upgrade opentype-sanitizer==${otsVersion}`
+        `python -m pip install --upgrade opentype-sanitizer==${otsVersion}`,
       );
     }
 
@@ -30,12 +30,12 @@ async function run() {
       console.log("");
       console.log(`[opentype-sanitizer] Checking ${file}...`);
       await exec.exec(
-        `python -c "import ots,sys;sys.exit(ots.sanitize('${file}').returncode)"`
+        `python -c "import ots,sys;sys.exit(ots.sanitize('${file}').returncode)"`,
       );
     }
   } catch (error) {
     core.setFailed(
-      `ERROR: Action failed during execution with error: ${error.message}`
+      `ERROR: Action failed during execution with error: ${error.message}`,
     );
   }
 }
