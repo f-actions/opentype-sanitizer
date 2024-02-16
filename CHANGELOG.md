@@ -1,5 +1,10 @@
 # Changelog
 
+## v3.0.0
+
+- update f-actions/opentype-sanitizer Action to Node 20 (addresses GitHub node 16 deprecation warnings for end users of this Action)
+- dependency updates
+
 ## v2.0.0
 
 - update f-actions/opentype-sanitizer Action to node 16 (addresses GitHub node 12 deprecation warnings for end users of this Action)
