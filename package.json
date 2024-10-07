@@ -32,7 +32,7 @@
     "@actions/glob": "^0.5.0"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.38.1",
+    "@vercel/ncc": "^0.38.2",
     "@babel/eslint-parser": "^7.24.8",
     "eslint": "^8.57.0",
     "eslint-config-airbnb": "^19.0.4",
