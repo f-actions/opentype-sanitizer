@@ -1,8 +1,9 @@
 {
   "name": "opentype-sanitizer",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "A GitHub Action for opentype-sanitizer testing of font artifacts",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "lint": "eslint src/*.js",
     "lint:fix": "eslint src/*.js --fix",
@@ -27,13 +28,13 @@
   },
   "homepage": "https://github.com/f-actions/opentype-sanitizer",
   "dependencies": {
-    "@actions/core": "^1.10.1",
-    "@actions/exec": "^1.0.4",
-    "@actions/glob": "^0.5.0"
+    "@actions/core": "^3.0.1",
+    "@actions/exec": "^3.0.0",
+    "@actions/glob": "^0.7.0"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.38.1",
     "@babel/eslint-parser": "^7.24.8",
+    "@vercel/ncc": "^0.38.4",
     "eslint": "^8.57.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
