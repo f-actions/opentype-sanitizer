@@ -1,5 +1,12 @@
 # Changelog
 
+## v4.0.0
+
+- update f-actions/opentype-sanitizer Action to Node 24 (addresses GitHub node 20 deprecation warnings for end users of this Action)
+- migrate source to ES modules; bump `@actions/core` to v3, `@actions/exec` to v3, `@actions/glob` to v0.7 (these toolkit majors are ESM-only)
+- bump CI workflow actions: `actions/checkout@v4`, `actions/setup-python@v5`, `actions/setup-node@v4`, `github/codeql-action@v3`
+- update CI Python matrix to 3.9–3.13 (Python 3.8 reached end-of-life)
+
 ## v3.0.0
 
 - update f-actions/opentype-sanitizer Action to Node 20 (addresses GitHub node 16 deprecation warnings for end users of this Action)
