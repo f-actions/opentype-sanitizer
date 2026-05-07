@@ -1,5 +1,9 @@
 # Changelog
 
+## v4.0.1
+
+- bump pinned `opentype-sanitizer` version in CI test workflows from `8.0.0` (no longer on PyPI) to `9.2.0`
+
 ## v4.0.0
 
 - update f-actions/opentype-sanitizer Action to Node 24 (addresses GitHub node 20 deprecation warnings for end users of this Action)
