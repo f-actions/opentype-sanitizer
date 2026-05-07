@@ -30,7 +30,7 @@ jobs:
         uses: f-actions/opentype-sanitizer@master
         with:
           update-pip: "true"
-          version: "8.0.0"
+          version: "9.2.0"
           path: "tests/NotoSans-Regular.ttf"
       - name: Run ${{ matrix.python-version }} platform tests (font wildcard)
         uses: f-actions/opentype-sanitizer@master
